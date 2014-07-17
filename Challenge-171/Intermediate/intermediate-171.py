@@ -47,10 +47,6 @@ image = prepare_for_next(rotated)
 zoomed = zoom(image,2)
 image = prepare_for_next(zoomed)
 inverted = invert(image)
-
-print inverted
-
-
 image = prepare_for_next(inverted)
 zoomed_out = zoom(image, 0.5)
 
