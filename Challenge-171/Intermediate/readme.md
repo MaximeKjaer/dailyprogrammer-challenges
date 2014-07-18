@@ -1,3 +1,5 @@
+###[Challenge #171 - Intermediate](http://www.reddit.com/r/dailyprogrammer/comments/2avd5i/7162014_challenge_171_intermediate_zoom_rotate/)
+
 Here's my output:
 
 FF 81 BD A5 A5 BD 81 FF: 
