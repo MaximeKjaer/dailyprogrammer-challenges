@@ -1,4 +1,4 @@
-###[Challenge 171 - Easy](http://www.reddit.com/r/dailyprogrammer/comments/2ao99p/7142014_challenge_171_easy_hex_to_8x8_bitmap/)
+###[Challenge #171 - Easy](http://www.reddit.com/r/dailyprogrammer/comments/2ao99p/7142014_challenge_171_easy_hex_to_8x8_bitmap/)
 
 Didn't bother setting up a raw_input, but you get the idea.
 
