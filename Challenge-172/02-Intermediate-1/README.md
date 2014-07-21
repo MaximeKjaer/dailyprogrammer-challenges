@@ -6,7 +6,7 @@ In this challenge, I've tried to render PBM (and PPM and PGM) files in Python us
 
 Three different types of input were used.
 
-1. **PBM P1**
+- **PBM P1**
 
 **Input file: **
 
@@ -25,7 +25,7 @@ Three different types of input were used.
 !['This image was rendered by my Python script'](http://i.imgur.com/t4MZAGj.png)
 
 
-2. **PGM P2**
+- **PGM P2**
 
 **Input file (from Wikipedia):**
 
