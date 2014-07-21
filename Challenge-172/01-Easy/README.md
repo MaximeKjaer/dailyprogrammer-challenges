@@ -19,4 +19,4 @@
 
 **Image:**
 
-![Generated PBM image](http://i.imgur.com/RFLJ4jS.png =100x)
+![Generated PBM image](http://i.imgur.com/RFLJ4jS.png)
