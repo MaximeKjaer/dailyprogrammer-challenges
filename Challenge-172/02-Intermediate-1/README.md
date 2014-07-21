@@ -2,7 +2,7 @@
 
 In this challenge, I've tried to render PBM (and PPM and PGM) files in Python using [Pillow](https://github.com/python-pillow/Pillow) for Python (see [intermediate-172-1.py](intermediate-172-1.py)).
 
-##Input
+##Input & Ouput
 
 Three different types of input were used.
 
@@ -48,3 +48,9 @@ My script rendered this:
 
 Wikipedia has a magnified version on their article on the [netpbm format](http://en.wikipedia.org/wiki/Netpbm_format)
 !['This is Wikipedia's magnified version'](http://upload.wikimedia.org/wikipedia/commons/8/81/Feep_netbpm_p2_pgm_example.png)
+
+
+- **PPM P3**
+
+
+(I'll come back later and fill this out)
