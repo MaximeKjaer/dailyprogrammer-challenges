@@ -22,7 +22,7 @@ In this challenge, we try to generate [P1 PBM files](http://en.wikipedia.org/wik
 
 ![Generated PBM image](http://i.imgur.com/RFLJ4jS.png)
 
-# 
+***
 
 **String:** ```THIS IMAGE WAS GENERATED FROM TEXT```
 
