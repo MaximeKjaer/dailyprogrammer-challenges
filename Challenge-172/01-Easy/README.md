@@ -2,7 +2,7 @@
 
 In this challenge, we try to generate [P1 PBM files](http://en.wikipedia.org/wiki/Netpbm_format) from text in Python (see [easy.py](https://github.com/MaximeKjaer/dailyprogrammer-challenges/blob/master/Challenge-172/01-Easy/easy.py)).
 
-#**Output**
+##Output
 
 **String:** ```HELLO```
 
