@@ -23,3 +23,24 @@ Three different types of input were used.
 **Output image:**
 
 !['This image was rendered by my Python script'](http://i.imgur.com/t4MZAGj.png)
+
+
+2. **PGM P2**
+
+**Input file (from Wikipedia):**
+
+    P2
+    # Shows the word "FEEP" (example from Netpbm man page on PGM)
+    24 7
+    15
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+    0  3  3  3  3  0  0  7  7  7  7  0  0 11 11 11 11  0  0 15 15 15 15  0
+    0  3  0  0  0  0  0  7  0  0  0  0  0 11  0  0  0  0  0 15  0  0 15  0
+    0  3  3  3  0  0  0  7  7  7  0  0  0 11 11 11  0  0  0 15 15 15 15  0
+    0  3  0  0  0  0  0  7  0  0  0  0  0 11  0  0  0  0  0 15  0  0  0  0
+    0  3  0  0  0  0  0  7  7  7  7  0  0 11 11 11 11  0  0 15  0  0  0  0
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+
+**Output image:**
+
+!['This image was also rendered by my Python script (trust me on this one)'](http://i.imgur.com/DZvRFPU.png)
