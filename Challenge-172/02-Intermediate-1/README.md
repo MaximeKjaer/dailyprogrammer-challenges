@@ -43,6 +43,8 @@ Three different types of input were used.
 
 **Output image:**
 
+My script rendered this:
 !['This image was also rendered by my Python script (trust me on this one)'](http://i.imgur.com/DZvRFPU.png)
 
+Wikipedia has a magnified version on their article on the [netpbm format](http://en.wikipedia.org/wiki/Netpbm_format)
 !['This is Wikipedia's magnified version'](http://upload.wikimedia.org/wikipedia/commons/8/81/Feep_netbpm_p2_pgm_example.png)
