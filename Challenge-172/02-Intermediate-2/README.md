@@ -6,14 +6,18 @@ This will be the easiest one so far for me... because I already had the code for
 
 Running the following command: ```python password_maker.py test123``` will create the following output: 
 
-```salt.txt```:
+salt.txt:
 
     8516df486fe34f19b52bc0812e72cfe5
 
-```encrypted.txt```:
+
+encrypted.txt:
 
     4c925be95cd08257296ac684c3e32c9b739c69f0a700589ac737ac77dfc5d125ad37f7e8204b696c3584b6cf5fe2afbc600feb5ebbdfb992052cfbe9f328a682
 
+
 And of course, running the ```password_checker.py``` with the correct password will return:
+
+ 
 
     ACCESS GRANTED
