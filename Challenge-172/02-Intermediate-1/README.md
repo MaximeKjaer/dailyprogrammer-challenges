@@ -8,7 +8,7 @@ Three different types of input were used.
 
 - **PBM P1**
 
-**Input file: **
+**Input file:**
 
     P1
     259 7
@@ -52,5 +52,18 @@ Wikipedia has a magnified version on their article on the [netpbm format](http:/
 
 - **PPM P3**
 
+**Input file (from Wikipedia):**
 
-(I'll come back later and fill this out)
+    P3
+    # The P3 means colors are in ASCII, then 3 columns and 2 rows,
+    # then 255 for max color, then RGB triplets
+    3 2
+    255
+    255   0   0     0 255   0     0   0 255
+    255 255   0   255 255 255     0   0   0
+
+My script rendered this (yes, it's tiny)
+!['This image was also rendered by my Python script (trust me on this one)'](http://i.imgur.com/PWxBUcd.png)
+
+Wikipedia has a magnified version on their article on the [netpbm format](http://en.wikipedia.org/wiki/Netpbm_format)
+!['This is Wikipedia's magnified version'](http://upload.wikimedia.org/wikipedia/commons/5/57/Tiny6pixel.png)
