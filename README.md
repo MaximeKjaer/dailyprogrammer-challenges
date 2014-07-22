@@ -12,4 +12,4 @@ Done so far:
 - [Challenge #172](/Challenge-172)
    - [Easy](/Challenge-172/01-Easy): P1 PBM image generation from text.
    - [Intermediate 1](Challenge-172/02-Intermediate-1): P1 PBM, P2 PGM and P3 PPM image rendering with Pillow
-   - [Intermediate 2](Challenge-172/03-Intermediate-2): Password salting and hashing
+   - [Intermediate 2](Challenge-172/02-Intermediate-2): Password salting and hashing
