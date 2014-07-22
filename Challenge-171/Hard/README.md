@@ -19,7 +19,7 @@ I have created my own algorithm for this challenge. It's based on these 3 rules
 
 The dictionary in the solution may provide a better idea of how I assign bit values to each letter.
 
-This method enabled me to get the following output:
+This method enabled me to get the following output, for an average of 36,6%:
 
 
     Read message of 31 Bytes
@@ -36,6 +36,27 @@ This method enabled me to get the following output:
     
     Read message of 109 Bytes
     Compressing  872  Bits into  545  Bits ( 37.5 % compression)
+    Sending Message.
+    Decompressing Message into 109 Bytes.
+    Message Matches!
+
+I tried to compress it even more by providing a "shorthand" for common English words. So by taking the top 238 words and assigning shortcuts to them, I was able to get the following output.
+
+
+    Read message of 31 Bytes
+    Compressing  248  Bits into  123  Bits ( 50.4032258065 % compression)
+    Sending Message.
+    Decompressing Message into 31 Bytes.
+    Message Matches!
+    
+    Read message of 53 Bytes
+    Compressing  424  Bits into  246  Bits ( 41.9811320755 % compression)
+    Sending Message.
+    Decompressing Message into 53 Bytes.
+    Message Matches!
+    
+    Read message of 109 Bytes
+    Compressing  872  Bits into  463  Bits ( 46.9036697248 % compression)
     Sending Message.
     Decompressing Message into 109 Bytes.
     Message Matches!
