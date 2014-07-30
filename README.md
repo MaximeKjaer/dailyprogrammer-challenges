@@ -1,4 +1,4 @@
-dailyprogrammer-challenges
+Dailyprogrammer challenges
 ==========================
 
 My solutions to [/r/dailyprogrammer](http://reddit.com/r/dailyprogrammer) challenges.
@@ -13,3 +13,6 @@ Done so far:
    - [Easy](/Challenge-172/01-Easy): P1 PBM image generation from text.
    - [Intermediate 1](Challenge-172/02-Intermediate-1): P1 PBM, P2 PGM and P3 PPM image rendering with Pillow
    - [Intermediate 2](Challenge-172/02-Intermediate-2): Password salting and hashing
+- [Challenge #173](/Challenge-173)
+   - [Easy](/Challenge-173/01-Easy): Unit coverter (mass & length)
+   - [Intermediate](/Challenge-173/02-Intermediate): Advanced [Langton's Ant](http://en.wikipedia.org/wiki/Langton%27s_ant)
