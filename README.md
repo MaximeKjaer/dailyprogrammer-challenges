@@ -16,3 +16,4 @@ Done so far:
 - [Challenge #173](/Challenge-173)
    - [Easy](/Challenge-173/01-Easy): Unit coverter (mass & length)
    - [Intermediate](/Challenge-173/02-Intermediate): Advanced [Langton's Ant](http://en.wikipedia.org/wiki/Langton%27s_ant)
+   - [Hard](/Challenge-173/03-Hard): Road Trip Game
