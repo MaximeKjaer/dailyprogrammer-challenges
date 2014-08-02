@@ -1,18 +1,24 @@
 from PIL import Image
 
-instructions = 'LLRR'
+instructions = 'RRLRLR'
 colors = [(255, 255, 255), (0, 0, 0), (255, 0, 0), 	(0, 255, 0), (0, 0, 255), (255, 255, 0), (255, 0, 255), (0, 255, 255), (128, 128, 128)]
+movements = [
+	[0, -1], #up
+	[-1, 0], #right
+	[0, 1], #down
+	[1, 0] #left
+]
 width = 1000
 height = 1000
 ant = {
 	'position': [500, 500],
 	'angle': 0 #up
 }
-steps = 10000000
-
+test_angle = 0
+steps = 100000
 
 instructions = list(instructions)
-color_instructions = dict(zip(colors, instructions))
+rule = dict(zip(colors, instructions))
 img = Image.new( 'RGB', (width, height), "white")
 pixels = img.load()
 
@@ -20,31 +26,20 @@ for step in range(steps):
 	x = ant['position'][0]
 	y = ant['position'][1]
 	pixel_color = pixels[x, y]
-	turn = color_instructions[pixel_color]
+	turn = rule[pixel_color]
 	#DEFINING TURN ANGLE
 	if turn=='L':
-		ant['angle'] = ant['angle'] - 90
+		ant['angle'] = (ant['angle'] - 1) % 4
 	elif turn=='R':
-		ant['angle'] = ant['angle'] + 90
-	if ant['angle']==360:
-		ant['angle'] = 0
-	elif ant['angle']==-90:
-		ant['angle'] = 270
-	#DEFINING NEW COLOR
+		ant['angle'] = (ant['angle'] + 1) % 4
+	#DEFINING THE PIXEL'S NEW COLOR
 	next_color = colors.index(pixel_color) + 1
-	if next_color >= len(color_instructions):
+	if next_color >= len(rule):
 		next_color = 0
 	next_color = colors[next_color]
-	#COLORING
+	#COLORING THE CURRENT PIXEL
 	pixels[x,y] = next_color
-	#MOVING
-	if ant['angle']==0: #go up
-		y = y-1
-	elif ant['angle']==90: #go right
-		x = x-1
-	elif ant['angle']==180: #go down
-		y = y+1
-	elif ant['angle']==270: #go left
-		x = x+1
-	ant['position'] = [x, y]
-img.save('Landons_Ant', 'PNG')
+	#MOVING THE ANT
+	ant['position'][0] += movements[ant['angle']][0]
+	ant['position'][1] += movements[ant['angle']][1]
+img.save('Landons_Ant3', 'PNG')
