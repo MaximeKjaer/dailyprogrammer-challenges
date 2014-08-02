@@ -1,0 +1,48 @@
+{
+	"stats": {
+		"food_per_day": 10,
+		"oxygen_per_day": 10,
+		"day": 0,
+		"traveled": 0,
+		"engineers": 0,
+		"chefs": 0,
+		"farmers": 0,
+		"acceleration_factor": 1,
+		"food_savings_factor": 1,
+		"oxygen_savings_factor": 1,
+		"food": 300,
+		"oxygen": 400,
+		"speed": 2280,
+		"distance": 95000000000
+	},
+	"first_names": ["Youlanda", "Tu", "Jerry", "Xuan", "Dessie", "Demetrius", "Melaine", "Natacha", "Boyce", "Vannessa"],
+	"last_names": ["Ackerman", "Saucedo", "Yarbrough", "Cleveland", "Kahn", "Oswald", "Staley", "Bowden", "Adcock", "Hooks"],
+	"jobs": ["Engineer", "Chef", "Farmer"],
+	"job_stats": {
+	  	"Engineer": {
+	    	"food": 15,
+	    	"oxygen": 10,
+	    	"food_savings_factor": 1, 
+	    	"oxygen_savings_factor": 1, 
+	    	"acceleration_factor": 2,
+	    	"text": "        Abilities:\n        * Will repair something in the spaceship and double your speed every day.\n        * Eats 15 food.\n        * Uses 10 oxygen.\n"
+	  	},
+	  	"Chef": {
+	  		"food": 20,
+	  		"oxygen": 15,
+	  		"food_savings_factor": 1.2,
+	  		"oxygen_savings_factor": 1,
+	  		"acceleration_factor": 1,
+	  		"text": "        Abilities: \n        * Will prevent food waste: -20% food consumption.\n        * Eats 20 food.\n        * Uses 15 oxygen.\n"
+	  	},
+	  	"Farmer": {
+	  		"food": -15,
+	  		"oxygen": -5,
+	  		"food_savings_factor": 1,
+	  		"oxygen_savings_factor": 1,
+	  		"acceleration_factor": 1,
+	  		"text": "        Abilities: \n        * Will produce 25 food and 15 oxygen every day.\n        * Eats 10 food\n        * Uses 10 oxygen\n"
+	  	}
+	},
+	"initial_text": "It is 2114. We have colonized the Galaxy.\nTo communicate we send 140 character max messages using [A-Z0-9].\nThe technology to do this requires faster than light pulses to beam the messages to relay stations.\n\nYour job is to travel to another planet in your system and implement the Intergalactic Bitstreaming machine.\n\nThat planet is 1% of a lightyear away.\n\nAll you have is a broken spaceship, 300 food and 400 oxygen.\nYour mission is to get to the other planet as quickly as possible. To do so, you'll have to pick up people along the way.\nThese people will have different skills - it's up to you to decide who you want aboard your ship!\n"
+}
