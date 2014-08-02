@@ -1,6 +1,6 @@
 #[Challenge #173 Hard - Road Trip Game](http://www.reddit.com/r/dailyprogrammer/comments/2ccipl/8012014_challenge_173_hard_road_trip_game/)
 
-The game is pretty self-descriptive. 
+The game is pretty self-descriptive. Just run it through a Python 3 interpreter!
 
 **Sample play-through**
 
