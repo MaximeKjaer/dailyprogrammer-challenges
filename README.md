@@ -17,3 +17,6 @@ Done so far:
    - [Easy](/Challenge-173/01-Easy): Unit coverter (mass & length)
    - [Intermediate](/Challenge-173/02-Intermediate): Advanced [Langton's Ant](http://en.wikipedia.org/wiki/Langton%27s_ant)
    - [Hard](/Challenge-173/03-Hard): Road Trip Game
+- [Challenge #174](/Challenge-174)
+   - [Easy](/Challenge-174/01-Easy): Thue-Morse sequence generator
+   - [Intermediate](/Challenge-174/02-Intermediate): Username-to-Avatar generator
