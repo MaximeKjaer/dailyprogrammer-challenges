@@ -20,3 +20,4 @@ Done so far:
 - [Challenge #174](/Challenge-174)
    - [Easy](/Challenge-174/01-Easy): Thue-Morse sequence generator
    - [Intermediate](/Challenge-174/02-Intermediate): Username-to-Avatar generator
+   - [Hard](/Challenge-174/03-Hard): Convex Hull problem with the Gift Wrapping algorithm
