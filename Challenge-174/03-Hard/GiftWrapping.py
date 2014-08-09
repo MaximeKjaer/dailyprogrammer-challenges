@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageOps
 from random import randint
 
-n = 26
+n = 150
 
 #Create image
 img = Image.new( 'RGB', (101, 101), 'white')
@@ -9,24 +9,11 @@ draw = ImageDraw.Draw(img)
 points = [(randint(0, 100), randint(0, 100))  for _ in range(n)]
 
 def left(point, line):
-    """Determines if a point is to the left of a line"""
-    x, y = point[0], point[1]
-    #DETERMINE SLOPE
-    if line[1][0] - line[0][0] != 0: #If it isn't vertical
-        slope = (line[1][1] - line[0][1]) / (line[1][0] - line[0][0])
-        y_intercept = line[0][1] - slope*line[0][0]
-    else:
-        slope = 'vertical'
-    #DETERMINE IF IT IS TO THE LEFT
-    if line[0][0] > line[1][0]: #If the line goes from left to right, then check if the point is above
-        return y > slope*x + y_intercept
-    elif line[0][0] < line[1][0]: #If it goes from right to left, then check if the point is below
-        return y < slope*x + y_intercept
-    elif slope == 'vertical' and line[0][1] > line[1][1]: #If it goes from up to down then check if the point is to the right
-        return x > line[0][1]
-    elif slope == 'vertical' and line[0][1] < line[1][1]: #If it goes from down to up, then check if the point is to the left
-        return x < line[0][1]
-
+    """Determines if a point is to the left of a line
+    (http://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line)
+    A BIG thank-you to /u/Frichjaskla !!"""
+    position = (line[1][0]-line[0][0])*(point[1]-line[0][1]) -  (line[1][1]-line[0][1])*(point[0]-line[0][0])
+    return position<0
 
 def jarvis(S):
     pointOnHull = min(S)
