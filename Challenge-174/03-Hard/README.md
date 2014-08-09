@@ -9,3 +9,11 @@ So I went with the [Gift Wrapping Algorithm](http://en.wikipedia.org/wiki/Gift_w
 **For 50 points:**
 
 ![](http://i.imgur.com/gsCdTPF.png)
+
+**For 150 points:**
+
+![](http://i.imgur.com/SFSQvDZ.png)
+
+**For 4000 points (randomly chosen with a normal distribution, µ=50, σ=10)**:
+
+![](http://i.imgur.com/LeNnvUN.png)
