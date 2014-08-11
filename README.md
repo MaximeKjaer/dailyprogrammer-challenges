@@ -21,3 +21,5 @@ Done so far:
    - [Easy](/Challenge-174/01-Easy): Thue-Morse sequence generator
    - [Intermediate](/Challenge-174/02-Intermediate): Username-to-Avatar generator
    - [Hard](/Challenge-174/03-Hard): Convex Hull problem with the Gift Wrapping algorithm
+- [Challenge #175](/Challenge-175)
+   - [Easy](/Challenge-175/01-Easy): Extremely inefficient sorting algorithms
