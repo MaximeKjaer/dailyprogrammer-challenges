@@ -23,3 +23,4 @@ Done so far:
    - [Hard](/Challenge-174/03-Hard): Convex Hull problem with the Gift Wrapping algorithm
 - [Challenge #175](/Challenge-175)
    - [Easy](/Challenge-175/01-Easy): Extremely inefficient sorting algorithms
+   - [Intermediate](/Challenge-175/02-Intermediate): Largest word from list of characters
