@@ -24,3 +24,4 @@ Done so far:
 - [Challenge #175](/Challenge-175)
    - [Easy](/Challenge-175/01-Easy): Extremely inefficient sorting algorithms
    - [Intermediate](/Challenge-175/02-Intermediate): Largest word from list of characters
+   - [Hard](/Challenge-175/03-Hard): Simulation of a laser in a 2D hall of mirrors
