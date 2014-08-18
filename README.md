@@ -25,5 +25,5 @@ Done so far:
    - [Easy](/Challenge-175/01-Easy): Extremely inefficient sorting algorithms
    - [Intermediate](/Challenge-175/02-Intermediate): Largest word from list of characters
    - [Hard](/Challenge-175/03-Hard): Simulation of a laser in a 2D hall of mirrors
-- [Challenge #176](/Challenge-176):
+- [Challenge #176](/Challenge-176)
    - [Easy](/Challenge-176/O1-Easy): Spreadsheet cell-selection formula parsing
