@@ -1,4 +1,4 @@
-#[Challenge #176 Easy - Spreadsheet Cell Selection Formulas]
+#[Challenge #176 Easy - Spreadsheet Cell Selection Formulas](http://www.reddit.com/r/dailyprogrammer/comments/2dvc81/8182014_challenge_176_easy_spreadsheet_developer/)
 
 **Python 3.4**
 
@@ -14,6 +14,7 @@ Given a selection string that fits the following syntax, it returns the number o
 
 3. A formula may have one ~ (tilde) symbol in it. If so, any cells specified before the tilde are added to the final selection, and any cells after the tilde are removed from the final selection of cells
 
+***
 
 **Input**
 
