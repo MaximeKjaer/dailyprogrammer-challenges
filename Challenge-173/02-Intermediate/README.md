@@ -8,4 +8,10 @@ Also, this on is in Python 3.4 (for once!).
 
 #**Output**
 
-I tried to replicate [Wikipedia's example](http://en.wikipedia.org/wiki/Langton%27s_ant#mediaviewer/File:LangtonsAnt-nColor_LLRR_123157.png), and got [this](http://i.imgur.com/0Zsgf1a.png).
+I tried to replicate Wikipedia's example:
+
+![](http://upload.wikimedia.org/wikipedia/commons/2/28/LangtonsAnt-nColor_LLRR_123157.png)
+
+and got this:
+
+![](http://i.imgur.com/0Zsgf1a.png).
