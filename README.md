@@ -27,3 +27,4 @@ Done so far:
    - [Hard](/Challenge-175/03-Hard): Simulation of a laser in a 2D hall of mirrors
 - [Challenge #176](/Challenge-176)
    - [Easy](/Challenge-176/01-Easy): Spreadsheet cell-selection formula parsing
+   - [Hard](/Challenge-176/02-Hard-1): Spreadsheet cell operations
