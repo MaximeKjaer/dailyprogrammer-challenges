@@ -6,9 +6,9 @@ My solutions to [/r/dailyprogrammer](http://reddit.com/r/dailyprogrammer) challe
 Done so far:
 
 - [Challenge #171](/Challenge-171)
-   - [Easy](/Challenge-171/Easy): Conversion of 8 hexadecimal numbers to an image.
-   - [Intermediate](Challenge-171/Intermediate): Image manipulation (rotation, zoom, inversion...)
-   - [Hard](/Challenge-171/Hard): String compression with my own algorithm
+   - [Easy](/Challenge-171/01-Easy): Conversion of 8 hexadecimal numbers to an image.
+   - [Intermediate](Challenge-171/02-Intermediate): Image manipulation (rotation, zoom, inversion...)
+   - [Hard](/Challenge-171/03-Hard): String compression with my own algorithm
 - [Challenge #172](/Challenge-172)
    - [Easy](/Challenge-172/01-Easy): P1 PBM image generation from text.
    - [Intermediate 1](Challenge-172/02-Intermediate-1): P1 PBM, P2 PGM and P3 PPM image rendering with Pillow
@@ -26,5 +26,6 @@ Done so far:
    - [Intermediate](/Challenge-175/02-Intermediate): Largest word from list of characters
    - [Hard](/Challenge-175/03-Hard): Simulation of a laser in a 2D hall of mirrors
 - [Challenge #176](/Challenge-176)
-   - [Easy](/Challenge-176/01-Easy): Spreadsheet cell-selection formula parsing
-   - [Hard](/Challenge-176/02-Hard-1): Spreadsheet cell operations
+   - [Easy 1](/Challenge-176/01-Easy-1): Spreadsheet cell-selection formula parsing
+   - [Hard](/Challenge-176/02-Hard): Spreadsheet cell operations
+   - [Easy 2](/Challenge-176/03-Easy-2): Pivot tables
