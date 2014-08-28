@@ -31,3 +31,4 @@ Done so far:
    - [Easy 2](/Challenge-176/03-Easy-2): Pivot tables
 - [Challenge #177](/Challenge-177)
    - [Easy](/Challenge-177/01-Easy): Quicksort
+   - [Intermediate](/Challenge-177/02-Intermediate): Morse audio file generation
