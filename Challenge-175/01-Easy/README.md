@@ -8,31 +8,45 @@ Turns out that [Bogosort](http://en.wikipedia.org/wiki/Bogo-sort) actually is pr
 
     BOGO SORT
     ==============================
-    29 iterations
-    20 iterations
-    1 iterations
-    18 iterations
-    22 iterations
-    43 iterations
-    80 iterations
-    36 iterations
-    9 iterations
-    56 iterations
+    Finished: 29 iterations with word 'hello'
+    Finished: 20 iterations with word 'hello'
+    Finished: 1 iterations with word 'hello'
+    Finished: 18 iterations with word 'hello'
+    Finished: 22 iterations with word 'hello'
+    Finished: 43 iterations with word 'hello'
+    Finished: 80 iterations with word 'hello'
+    Finished: 36 iterations with word 'hello'
+    Finished: 9 iterations with word 'hello'
+    Finished: 56 iterations with word 'hello'
     
-    BOGOBOGO SORT
+    (WRONG) BOGOBOGO SORT
     ==============================
-    13444 iterations
-    5774 iterations
-    17247 iterations
-    10959 iterations
-    1329 iterations
-    1256 iterations
-    6839 iterations
-    1430 iterations
-    21624 iterations
-    5506 iterations
+    Finished: 13444 iterations with word 'hello'
+    Finished: 5774 iterations with word 'hello'
+    Finished: 17247 iterations with word 'hello'
+    Finished: 10959 iterations with word 'hello'
+    Finished: 1329 iterations with word 'hello'
+    Finished: 1256 iterations with word 'hello'
+    Finished: 6839 iterations with word 'hello'
+    Finished: 1430 iterations with word 'hello'
+    Finished: 21624 iterations with word 'hello'
+    Finished: 5506 iterations with word 'hello'
     
-Averages over 50 runs are:
+    (CORRECT) BOGOBOGO SORT
+    ==============================
+    Finished: 2214442 iterations with word 'hello'
+    Finished: 5904668 iterations with word 'hello'
+    Finished: 1952674 iterations with word 'hello'
+    Finished: 39587 iterations with word 'hello'
+    Finished: 345852 iterations with word 'hello'
+    Finished: 5295625 iterations with word 'hello'
+    Finished: 506875 iterations with word 'hello'
+    Finished: 5499247 iterations with word 'hello'
+    Finished: 1797950 iterations with word 'hello'
+    Finished: 324256 iterations with word 'hello'
 
- - **Bogosort**: 50.44 iterations
- - **Bogobogosort**: 10252.48 iterations
+
+    
+ - **Bogosort**: 50.44 iterations (over 50 runs)
+ - **My wrong Bogobogosort**: 10252.48 iterations (over 50 runs)
+ - **[/u/Nodocify](http://www.reddit.com/user/Nodocify)'s correct Bogobogosort**: 2388117.6 iterations (over 10 runs)

@@ -5,22 +5,24 @@ def bogosort(n, m):
 	while n != m:
 		n = ''.join(random.sample(n,len(n)))
 		i += 1
-	print(i, 'iterations')
+	print('Finished: %d iterations with word %r' % (i, m))
 	return i
 
-def bogobogosort(n, m):
-	i = 0 #number of iterations
-	j = 2 #number of elements
-	while n[:j] != m:
-		n = ''.join(random.sample(n,len(n)))
-		while n[:j] != m[:j]:
-			n = ''.join(random.sample(n,len(n)))
-			i += 1
-			if n[:j] != m[:j]:
-				j = 2 #Start over
-		j += 1
-	print(i, 'iterations')
-	return i
+def bogobogosort(x,y):
+    z = ''
+    i = 0
+    j = 2
+    while z != y:
+        z = ''.join(random.sample(x, j))
+        if z == y[:j]:
+            #print(z, 'j =', j)
+            j+=1
+        else:
+            #print(z, 'j =', j)
+            j=2
+        i+=1
+    print('Finished: %d iterations with word %r' % (i, z))
+
 
 print("BOGO SORT\n==============================")
 for i in range(10):
