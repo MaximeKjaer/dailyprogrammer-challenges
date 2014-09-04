@@ -32,3 +32,4 @@ Done so far:
 - [Challenge #177](/Challenge-177)
    - [Easy](/Challenge-177/01-Easy): Quicksort
    - [Intermediate](/Challenge-177/02-Intermediate): Morse audio file generation
+   - [Hard](/Challenge-177/03-Hard): Stats on Monty Python and The Holy Grail
