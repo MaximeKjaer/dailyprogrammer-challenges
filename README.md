@@ -35,3 +35,4 @@ Done so far:
    - [Hard](/Challenge-177/03-Hard): Stats on Monty Python and The Holy Grail
 - [Challenge #178](/Challenge-178)
    - [Easy](/Challenge-178/01-Easy): Geometric transformations
+   - [Intermediate](/Challenge-178/02-Intermediate): Longest possible trip between planets with limited fuel
