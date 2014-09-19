@@ -37,3 +37,5 @@ Done so far:
    - [Easy](/Challenge-178/01-Easy): Geometric transformations
    - [Intermediate](/Challenge-178/02-Intermediate): Longest possible trip between planets with limited fuel
    - [Hard](/Challenge-178/03-Hard): Regex Fractals
+- [Challenge #179](/Challenge-179)
+   - [Easy](/Challenge-179/01-Easy): Grayscale conversion
